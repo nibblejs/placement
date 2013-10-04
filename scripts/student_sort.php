@@ -15,10 +15,14 @@ class StudentSort
 		$query_run = mysql_query($query);
 		if ($query_run)
 		{
+            echo '<table>';
 			while($row = mysql_fetch_array($query_run, MYSQL_ASSOC))
 			{
-				echo"<table> <tr> <td>$row['firstname']</td> <td>$row['lastname'] </td> <td> $row['email']</td> <td>              $row['univ_rollno']</td> <td> $row['dob']</td> <td> $row['branch']</td> <td> $row['expertise']</td><td> $row['gender']</td> </tr>  </table>"
+                echo'<tr><td>$row["firstname"]</td> <td>$row["lastname"]</td> <td> $row["email"]</td>
+				<td> $row["univ_rollno"]</td> <td> $row["dob"]</td> <td> $row["branch"]</td> <td> $row["expertise"]</td>
+				<td> $row["gender"]</td></tr>';
 			}
+            echo '</table>';
   		}
 	}
 
@@ -28,10 +32,14 @@ class StudentSort
 		$query_run = mysql_query($query);
 		if ($query_run)
 		{
+            echo'<table>';
 			while($row = mysql_fetch_array($query_run, MYSQL_ASSOC))
 			{
-				echo"<table> <tr> <td>$row['firstname']</td> <td>$row['lastname'] </td> <td> $row['email']</td> <td>              $row['univ_rollno']</td> <td> $row['dob']</td> <td> $row['branch']</td> <td> $row['expertise']</td> <td> $row['gender']</td></tr>  </table>"
+				echo'<tr><td>$row["firstname"]</td> <td>$row["lastname"]</td> <td> $row["email"]</td>
+				<td> $row["univ_rollno"]</td> <td> $row["dob"]</td> <td> $row["branch"]</td> <td> $row["expertise"]</td>
+				<td> $row["gender"]</td></tr>';
 			}
+            echo '</table>';
   		}
 	}	
 
@@ -41,10 +49,14 @@ class StudentSort
 		$query_run = mysql_query($query);
 		if ($query_run)
 		{
+            echo '<table>';
 			while($row = mysql_fetch_array($query_run, MYSQL_ASSOC))
 			{
-				echo"<table> <tr> <td>$row['firstname']</td> <td>$row['lastname'] </td> <td> $row['email']</td> <td>              $row['univ_rollno']</td> <td> $row['dob']</td> <td> $row['branch']</td> <td> $row['expertise']</td> <td> $row['gender']</td></tr>  </table>"
+                echo'<tr><td>$row["firstname"]</td> <td>$row["lastname"]</td> <td> $row["email"]</td>
+				<td> $row["univ_rollno"]</td> <td> $row["dob"]</td> <td> $row["branch"]</td> <td> $row["expertise"]</td>
+				<td> $row["gender"]</td></tr>';
 			}
+            echo '</table>';
   		}
 	}	
 		
