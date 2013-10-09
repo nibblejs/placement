@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="234c806c-77d0-49fb-8bdb-3f54e1b0f7c8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/student_profile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/profiles_display.php" afterPath="$PROJECT_DIR$/scripts/profiles_display.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/student_sort.php" afterPath="$PROJECT_DIR$/scripts/student_sort.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/Files_check.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="placement.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="234c806c-77d0-49fb-8bdb-3f54e1b0f7c8" time="1380913931642" ignored="false" />
+    <file path="/Dummy.txt" changelist="234c806c-77d0-49fb-8bdb-3f54e1b0f7c8" time="1381342089474" ignored="false" />
     <file path="/student_profile.php" changelist="234c806c-77d0-49fb-8bdb-3f54e1b0f7c8" time="1380914252484" ignored="false" />
     <file path="/a.dummy" changelist="234c806c-77d0-49fb-8bdb-3f54e1b0f7c8" time="1380879473574" ignored="false" />
     <file path="/profiles_display.php" changelist="234c806c-77d0-49fb-8bdb-3f54e1b0f7c8" time="1380916001293" ignored="false" />
     <file path="/student_sort.php" changelist="234c806c-77d0-49fb-8bdb-3f54e1b0f7c8" time="1380882849410" ignored="false" />
+    <file path="/Files_check.php" changelist="234c806c-77d0-49fb-8bdb-3f54e1b0f7c8" time="1381343081960" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,17 @@
     <favorites_list name="placement" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Files_check.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/Files_check.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="25" selection-start="564" selection-end="564" vertical-scroll-proportion="0.5719626">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -58,6 +67,7 @@
         <option value="$PROJECT_DIR$/scripts/student_sort.php" />
         <option value="$PROJECT_DIR$/scripts/student_profile.php" />
         <option value="$PROJECT_DIR$/scripts/profiles_display.php" />
+        <option value="$PROJECT_DIR$/scripts/Files_check.php" />
       </list>
     </option>
   </component>
@@ -168,13 +178,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25075758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -252,84 +262,47 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scripts/profiles_display.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="285" selection-end="397" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="15" column="0" selection-start="285" selection-end="397" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/student_profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="114" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1380914292400" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="23" column="114" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/student_sort.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1380882853206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1380882853206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1380882853206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1380882853206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1380882853206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1380882853206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1380882853206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1380882853206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1380882853206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1380882853206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1380882853206" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="65" column="0" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/student_register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="32" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="40" column="32" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/student_profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="12" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.9046729">
-          <folding>
-            <marker date="1380914292400" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="34" column="12" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.9046729" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/student_sort.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.8093458">
-          <folding>
-            <marker date="1380882853206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1380882853206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1380882853206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1380882853206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1380882853206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1380882853206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1380882853206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1380882853206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1380882853206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1380882853206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1380882853206" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="65" column="0" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.8093458" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/profiles_display.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/student_register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="32" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.03256705">
+        <state line="40" column="32" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.03256705" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/Files_check.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="25" selection-start="564" selection-end="564" vertical-scroll-proportion="0.5719626">
           <folding />
         </state>
       </provider>
