@@ -1,10 +1,13 @@
 <?php
 	require_once("global_inc.php");
-	session_start();	
+	session_start();
+
+
 	class student
 	{
-		$header="http://localhost/placement/student_login";
-		public function check()
+
+        public $header = 'http://localhost/placement/student_login';
+		public function check($header)
 		{
 			$email=stripslashes($_POST['email']);
 			$password=stripslashes($_POST["password"]);
@@ -16,14 +19,15 @@
 			else
 				return md5($password);
 		}
-		public function get()
+		public function get($email, $pass, $con, $header)
 		{
-			$pass=$this->check();
-			$sql="SELECT * FROM compnay WHERE email='$email' AND password='$pass'";
+            $pass = new student();
+			$p=$pass->check();
+			$sql="SELECT * FROM company WHERE email='$email' AND password='$pass'";
 			$res=mysqli_query($con, $sql);
 			if(!$res);
 			{
-				$_SESSION["err"]="there was a problem in datbase connection";
+				$_SESSION["err"]="there was a problem in database connection";
 				header('Location:'.$header.'.php');
 			}
 			$fnd = mysqli_fetch_array($res);

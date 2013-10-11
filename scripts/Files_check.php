@@ -1,10 +1,11 @@
 <?php
     class Files_check
     {
-        public static $num_of_images = 1;
+        public static $num_of_images = 0;
 
         public static function checkimg_size($file)
         {
+            self::$num_of_images++;
             $size = getimagesize($file);
             return(!empty($file) || ($size>50)) ? size : 'Please upload an image with jpeg format';
         }
